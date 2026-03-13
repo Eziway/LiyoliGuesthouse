@@ -24,7 +24,7 @@
   --background-color: #ffffff; /* White background for the whole website */
   --default-color: #000000; /* Black text for normal content */
   --heading-color: #000000; /* Black headings */
-  --accent-color: #FFD700; /* Gold for navbar, buttons, links, highlights */
+  --accent-color: #FFDB58; /* Gold for navbar, buttons, links, highlights */
   --surface-color: #ffffff; /* White for cards/sections */
   --contrast-color: #ffffff; /* White text when placed on gold backgrounds */
 }
@@ -47,7 +47,7 @@
 }
 
 .dark-background {
-  --background-color: #D4AF37; /* Black section background */
+  --background-color: #C4A000; /* Black section background */
   --default-color: #ffffff; /* White text on dark background */
   --heading-color: #111111; /* Gold headings */
   --surface-color: #111111; /* Slightly lighter black for cards */
@@ -146,7 +146,7 @@ h6 {
 # Global Header
 --------------------------------------------------------------*/
 .header {
-  --background-color: #f0b904;
+  --background-color: #C4A000;
   --heading-color: #ffffff;
   color: var(--default-color);
   transition: all 0.5s;
