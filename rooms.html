@@ -59,50 +59,23 @@
 
       <div class="container position-relative d-flex align-items-center justify-content-between">
         <a href="index.html" class="logo d-flex align-items-center">
-          <!-- Uncomment the line below if you also wish to use an image logo -->
-          <!-- <img src="assets/img/logo.webp" alt=""> -->
-          <h1 class="sitename">Liyoli Guesthouse</h1>
+          <h1 class="sitename">Liyoli Guest Houses</h1>
         </a>
 
         <nav id="navmenu" class="navmenu">
           <ul>
             <li><a href="index.html">Home</a></li>
+            <li class="dropdown"><a href="#"><span>Houses</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                <li><a href="willow-house.html"><i class="bi bi-house-door"></i> Willow House</a></li>
+                <li><a href="delville-house.html"><i class="bi bi-building"></i> Delville House</a></li>
+              </ul>
+            </li>
             <li><a href="about.html">About</a></li>
             <li><a href="rooms.html" class="active">Rooms</a></li>
             <li><a href="amenities.html">Amenities</a></li>
-            
-            <!--<li class="dropdown"><a href="#"><span>Pages</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-              <ul>
-                <li><a href="room-details.html">Room Details</a></li>
-                <li><a href="restaurant.html">Restaurant</a></li>
-                <li><a href="offers.html">Offers</a></li>
-                <li><a href="events.html">Events</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="booking.html">Booking</a></li>
-                <li><a href="terms.html">Terms Page</a></li>
-                <li><a href="privacy.html">Privacy Page</a></li>
-                <li><a href="404.html">404 Page</a></li>
-                <li><a href="starter-page.html">Starter Page</a></li>
-              </ul>
-            </li>-->
+            <li><a href="gallery.html">Gallery</a></li>
             <li><a href="contact.html">Contact</a></li>
-
-            <!--<li class="dropdown">
-              <a href="#english">
-                <svg class="icon" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <g id="SVGRepo_iconCarrier">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M4 0H6V2H10V4H8.86807C8.57073 5.66996 7.78574 7.17117 6.6656 8.35112C7.46567 8.73941 8.35737 8.96842 9.29948 8.99697L10.2735 6H12.7265L15.9765 16H13.8735L13.2235 14H9.77647L9.12647 16H7.0235L8.66176 10.9592C7.32639 10.8285 6.08165 10.3888 4.99999 9.71246C3.69496 10.5284 2.15255 11 0.5 11H0V9H0.5C1.5161 9 2.47775 8.76685 3.33437 8.35112C2.68381 7.66582 2.14629 6.87215 1.75171 6H4.02179C4.30023 6.43491 4.62904 6.83446 4.99999 7.19044C5.88743 6.33881 6.53369 5.23777 6.82607 4H0V2H4V0ZM12.5735 12L11.5 8.69688L10.4265 12H12.5735Z" fill="currentColor"></path>
-                  </g>
-                </svg>
-                <span>English</span>
-                <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-              <ul>
-                <li><a href="#french">French</a></li>
-                <li><a href="#deutsch">Deutsch</a></li>
-                <li><a href="#spanish">Spanish</a></li>
-              </ul>
-            </li>-->
-
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
@@ -182,119 +155,93 @@
 
         <div class="rooms-grid" data-aos="fade-up" data-aos-delay="300">
 
-  <!-- Willow Drive House -->
-  <div class="section-title mb-3"><h3>Willow Drive House</h3></div>
-  <div class="row g-4">
+          <!-- Willow House -->
+          <div class="d-flex justify-content-between align-items-center mb-4 pb-2 border-bottom border-warning-subtle">
+            <div>
+              <span class="badge bg-warning text-dark me-2">Fort Gale, Mthatha</span>
+              <h3 class="d-inline-block fw-bold text-dark mb-0">Willow House Rooms</h3>
+            </div>
+            <a href="willow-house.html" class="btn btn-outline-gold btn-sm"><i class="bi bi-house-door me-1"></i> View Willow House Details</a>
+          </div>
 
-    <div class="col-xl-4 col-lg-6">
-      <div class="room-card">
-        <img src="assets/img/hotel/room-1.webp" class="img-fluid" alt="Room Image">
-      </div>
-    </div>
+          <div class="row g-4 mb-5">
+            <div class="col-xl-4 col-lg-6">
+              <div class="room-card position-relative overflow-hidden rounded-4 shadow-sm">
+                <img src="assets/img/hotel/room-1.webp" class="img-fluid w-100" alt="Willow House Room">
+                <div class="p-3 bg-white">
+                  <h5 class="fw-bold mb-1">Deluxe King Room</h5>
+                  <p class="text-muted small mb-2"><i class="bi bi-geo-alt text-warning"></i> Willow House, Fort Gale</p>
+                  <a href="booking.html?house=willow" class="btn btn-gold btn-sm w-100">Book Willow House</a>
+                </div>
+              </div>
+            </div>
 
-    <div class="col-xl-4 col-lg-6">
-      <div class="room-card">
-        <img src="assets/img/hotel/room-3.webp" class="img-fluid" alt="Room Image">
-      </div>
-    </div>
+            <div class="col-xl-4 col-lg-6">
+              <div class="room-card position-relative overflow-hidden rounded-4 shadow-sm">
+                <img src="assets/img/hotel/room-3.webp" class="img-fluid w-100" alt="Willow House Room">
+                <div class="p-3 bg-white">
+                  <h5 class="fw-bold mb-1">Comfort Twin Room</h5>
+                  <p class="text-muted small mb-2"><i class="bi bi-geo-alt text-warning"></i> Willow House, Fort Gale</p>
+                  <a href="booking.html?house=willow" class="btn btn-gold btn-sm w-100">Book Willow House</a>
+                </div>
+              </div>
+            </div>
 
-    <div class="col-xl-4 col-lg-6">
-      <div class="room-card">
-        <img src="assets/img/hotel/room-12.webp" class="img-fluid" alt="Room Image">
-      </div>
-    </div>
+            <div class="col-xl-4 col-lg-6">
+              <div class="room-card position-relative overflow-hidden rounded-4 shadow-sm">
+                <img src="assets/img/hotel/room-12.webp" class="img-fluid w-100" alt="Willow House Room">
+                <div class="p-3 bg-white">
+                  <h5 class="fw-bold mb-1">Executive Suite</h5>
+                  <p class="text-muted small mb-2"><i class="bi bi-geo-alt text-warning"></i> Willow House, Fort Gale</p>
+                  <a href="booking.html?house=willow" class="btn btn-gold btn-sm w-100">Book Willow House</a>
+                </div>
+              </div>
+            </div>
+          </div>
 
-    <div class="col-xl-4 col-lg-6">
-      <div class="room-card">
-        <img src="assets/img/hotel/room-8.webp" class="img-fluid" alt="Room Image">
-      </div>
-    </div>
+          <!-- Delville House -->
+          <div class="d-flex justify-content-between align-items-center mb-4 pb-2 border-bottom border-warning-subtle">
+            <div>
+              <span class="badge bg-warning text-dark me-2">Umtata Central</span>
+              <h3 class="d-inline-block fw-bold text-dark mb-0">Delville House Rooms</h3>
+            </div>
+            <a href="delville-house.html" class="btn btn-outline-gold btn-sm"><i class="bi bi-building me-1"></i> View Delville House Details</a>
+          </div>
 
-    <div class="col-xl-4 col-lg-6">
-      <div class="room-card">
-        <img src="assets/img/hotel/dining-4.webp" class="img-fluid" alt="Room Image">
-      </div>
-    </div>
+          <div class="row g-4 mb-5">
+            <div class="col-xl-4 col-lg-6">
+              <div class="room-card position-relative overflow-hidden rounded-4 shadow-sm">
+                <img src="assets/img/Delville house/WhatsApp Image 2026-08-02 at 20.01.00 (1).jpeg" class="img-fluid w-100" alt="Delville House Suite">
+                <div class="p-3 bg-white">
+                  <h5 class="fw-bold mb-1">Central Executive Suite</h5>
+                  <p class="text-muted small mb-2"><i class="bi bi-geo-alt text-warning"></i> Delville House, Central</p>
+                  <a href="booking.html?house=delville" class="btn btn-gold btn-sm w-100">Book Delville House</a>
+                </div>
+              </div>
+            </div>
 
-  </div>
+            <div class="col-xl-4 col-lg-6">
+              <div class="room-card position-relative overflow-hidden rounded-4 shadow-sm">
+                <img src="assets/img/Delville house/WhatsApp Image 2026-08-02 at 20.01.00.jpeg" class="img-fluid w-100" alt="Delville House Suite">
+                <div class="p-3 bg-white">
+                  <h5 class="fw-bold mb-1">Modern Bedroom Suite</h5>
+                  <p class="text-muted small mb-2"><i class="bi bi-geo-alt text-warning"></i> Delville House, Central</p>
+                  <a href="booking.html?house=delville" class="btn btn-gold btn-sm w-100">Book Delville House</a>
+                </div>
+              </div>
+            </div>
 
-  <!-- Delville House -->
-  <div class="section-title mt-5 mb-3"><h3>Delville House</h3></div>
-  <div class="row g-4">
-
-    <div class="col-xl-4 col-lg-6">
-      <div class="room-card">
-        <img src="assets/img/Delville house/WhatsApp Image 2026-08-02 at 20.01.00 (1).jpeg" class="img-fluid" alt="Delville Image">
-      </div>
-    </div>
-
-    <div class="col-xl-4 col-lg-6">
-      <div class="room-card">
-        <img src="assets/img/Delville house/WhatsApp Image 2026-08-02 at 20.01.00.jpeg" class="img-fluid" alt="Delville Image">
-      </div>
-    </div>
-
-    <div class="col-xl-4 col-lg-6">
-      <div class="room-card">
-        <img src="assets/img/Delville house/WhatsApp Image 2026-08-02 at 20.01.01 (1).jpeg" class="img-fluid" alt="Delville Image">
-      </div>
-    </div>
-
-    <div class="col-xl-4 col-lg-6">
-      <div class="room-card">
-        <img src="assets/img/Delville house/WhatsApp Image 2026-08-02 at 20.01.01 (2).jpeg" class="img-fluid" alt="Delville Image">
-      </div>
-    </div>
-
-    <!--div class="col-xl-4 col-lg-6">
-      <div class="room-card">
-        <img src="assets/img/Delville house/WhatsApp Image 2026-08-02 at 20.01.01.jpeg" class="img-fluid" alt="Delville Image">
-      </div>
-    </div-->
-
-    <div class="col-xl-4 col-lg-6">
-      <div class="room-card">
-        <img src="assets/img/Delville house/WhatsApp Image 2026-08-02 at 20.01.02 (1).jpeg" class="img-fluid" alt="Delville Image">
-      </div>
-    </div>
-
-    <div class="col-xl-4 col-lg-6">
-      <div class="room-card">
-        <img src="assets/img/Delville house/WhatsApp Image 2026-08-02 at 20.01.02 (2).jpeg" class="img-fluid" alt="Delville Image">
-      </div>
-    </div>
-
-    <div class="col-xl-4 col-lg-6">
-      <div class="room-card">
-        <img src="assets/img/Delville house/WhatsApp Image 2026-08-02 at 20.01.02 (3).jpeg" class="img-fluid" alt="Delville Image">
-      </div>
-    </div>
-
-    <div class="col-xl-4 col-lg-6">
-      <div class="room-card">
-        <img src="assets/img/Delville house/WhatsApp Image 2026-08-02 at 20.01.02.jpeg" class="img-fluid" alt="Delville Image">
-      </div>
-    </div>
-
-    <div class="col-xl-4 col-lg-6">
-      <div class="room-card">
-        <img src="assets/img/Delville house/WhatsApp Image 2026-08-02 at 20.01.03 (1).jpeg" class="img-fluid" alt="Delville Image">
-      </div>
-    </div>
-
-    <div class="col-xl-4 col-lg-6">
-      <div class="room-card">
-        <img src="assets/img/Delville house/WhatsApp Image 2026-08-02 at 20.01.03 (2).jpeg" class="img-fluid" alt="Delville Image">
-      </div>
-    </div>
-
-    <div class="col-xl-4 col-lg-6">
-      <div class="room-card">
-        <img src="assets/img/Delville house/WhatsApp Image 2026-08-02 at 20.01.03.jpeg" class="img-fluid" alt="Delville Image">
-      </div>
-    </div>
-
-  </div>
+            <div class="col-xl-4 col-lg-6">
+              <div class="room-card position-relative overflow-hidden rounded-4 shadow-sm">
+                <img src="assets/img/Delville house/WhatsApp Image 2026-08-02 at 20.01.01 (1).jpeg" class="img-fluid w-100" alt="Delville House Suite">
+                <div class="p-3 bg-white">
+                  <h5 class="fw-bold mb-1">Private Guest Suite</h5>
+                  <p class="text-muted small mb-2"><i class="bi bi-geo-alt text-warning"></i> Delville House, Central</p>
+                  <a href="booking.html?house=delville" class="btn btn-gold btn-sm w-100">Book Delville House</a>
+                </div>
+              </div>
+            </div>
+          </div>
 
           </div>
         </div>
@@ -315,104 +262,56 @@
   </main>
 
   <footer id="footer" class="footer position-relative dark-background">
-
     <div class="footer-top">
       <div class="container">
         <div class="row gy-4">
-          <div class="col-lg-4 col-md-6 footer-about">
-            <a href="index.html" class="logo d-flex align-items-center">
-              <span class="sitename">Liyoli Guesthouse</span>
+          <div class="col-lg-5 col-md-6 footer-about">
+            <a href="index.html" class="logo d-flex align-items-center mb-3">
+              <span class="sitename fs-4 font-weight-bold text-white">Liyoli Guest Houses</span>
             </a>
-            <div class="footer-contact pt-3">
-              <p>21 Willow Drive Fortgale Mthatha Eastern Cape South Africa</p>
-              <p>31 Delville Rd, Umtata Central, Mthatha, 5099</p>
-              <p class="mt-3"><strong>Phone:</strong> <span>+27 72 149 7592 / +27 79 222 3499 </span></p>
-              <p><strong>Email:</strong> <span>bookings@liyoliguesthouse.co.za</span></p>
+            <div class="footer-contact">
+              <p class="mb-1"><i class="bi bi-geo-alt me-2 text-warning"></i><strong>Willow House:</strong> 21 Willow Drive, Fort Gale, Mthatha</p>
+              <p class="mb-2"><i class="bi bi-geo-alt me-2 text-warning"></i><strong>Delville House:</strong> 31 Delville Rd, Umtata Central, Mthatha</p>
+              <p class="mt-3 mb-1"><strong>Phone:</strong> <span>+27 72 149 7592 / +27 79 222 3499</span></p>
+              <p class="mb-0"><strong>Email:</strong> <span>bookings@liyoliguesthouse.co.za</span></p>
             </div>
           </div>
 
-          <div class="col-lg-2 col-md-3 footer-links">
-            <h4>Useful Links</h4>
+          <div class="col-lg-3 col-md-3 footer-links">
+            <h4>Our Houses</h4>
             <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About us</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Terms of service</a></li>
-              <li><a href="#">Privacy policy</a></li>
-            </ul>
-          </div>
-          <p>
-            © Copyright Liyoli Guesthouse. All Rights Reserved  
-            Powered by 
-            <a href="https://eandlholdings.co.za/" target="_blank">
-              E and L Holdings
-            </a>
-          </p>
-        </footer>
-
-          <!--<div class="col-lg-2 col-md-3 footer-links">
-            <h4>Our Services</h4>
-            <ul>
-              <li><a href="#">Web Design</a></li>
-              <li><a href="#">Web Development</a></li>
-              <li><a href="#">Product Management</a></li>
-              <li><a href="#">Marketing</a></li>
-              <li><a href="#">Graphic Design</a></li>
+              <li><a href="willow-house.html"><i class="bi bi-chevron-right me-1"></i> Willow House (Fort Gale)</a></li>
+              <li><a href="delville-house.html"><i class="bi bi-chevron-right me-1"></i> Delville House (Central)</a></li>
+              <li><a href="rooms.html"><i class="bi bi-chevron-right me-1"></i> All Accommodations</a></li>
+              <li><a href="booking.html"><i class="bi bi-chevron-right me-1"></i> Book A Room</a></li>
             </ul>
           </div>
 
-          <div class="col-lg-2 col-md-3 footer-links">
-            <h4>Hic solutasetp</h4>
+          <div class="col-lg-4 col-md-3 footer-links">
+            <h4>Quick Links</h4>
             <ul>
-              <li><a href="#">Molestiae accusamus iure</a></li>
-              <li><a href="#">Excepturi dignissimos</a></li>
-              <li><a href="#">Suscipit distinctio</a></li>
-              <li><a href="#">Dilecta</a></li>
-              <li><a href="#">Sit quas consectetur</a></li>
+              <li><a href="index.html"><i class="bi bi-chevron-right me-1"></i> Home</a></li>
+              <li><a href="about.html"><i class="bi bi-chevron-right me-1"></i> About Us</a></li>
+              <li><a href="amenities.html"><i class="bi bi-chevron-right me-1"></i> Amenities</a></li>
+              <li><a href="gallery.html"><i class="bi bi-chevron-right me-1"></i> Photo Gallery</a></li>
+              <li><a href="contact.html"><i class="bi bi-chevron-right me-1"></i> Contact Us</a></li>
             </ul>
           </div>
-
-          <div class="col-lg-2 col-md-3 footer-links">
-            <h4>Nobis illum</h4>
-            <ul>
-              <li><a href="#">Ipsam</a></li>
-              <li><a href="#">Laudantium dolorum</a></li>
-              <li><a href="#">Dinera</a></li>
-              <li><a href="#">Trodelas</a></li>
-              <li><a href="#">Flexo</a></li>
-            </ul>
-          </div>-->
-
         </div>
       </div>
     </div>
 
-    <!--<div class="copyright text-center">
-      <div class="container d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center">
-
-        <div class="d-flex flex-column align-items-center align-items-lg-start">
-          <div>
-            © Copyright <strong><span>MyWebsite</span></strong>. All Rights Reserved
-          </div>
-          <div class="credits">
-            <!-- All the links in the footer should remain intact. -->
-            <!-- You can delete the links only if you purchased the pro version. -->
-            <!-- Licensing information: https://bootstrapmade.com/license/ -->
-            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/herobiz-bootstrap-business-template/ -->
-            <!--Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> | <a href="https://bootstrapmade.com/tools/">DevTools</a>
-          </div>
-        </div>
-
-        <div class="social-links order-first order-lg-last mb-3 mb-lg-0">
-          <a href=""><i class="bi bi-twitter-x"></i></a>
-          <a href=""><i class="bi bi-facebook"></i></a>
-          <a href=""><i class="bi bi-instagram"></i></a>
-          <a href=""><i class="bi bi-linkedin"></i></a>
-        </div>
-
+    <div class="copyright text-center py-4 border-top border-secondary">
+      <div class="container">
+        <p class="mb-0">
+          © Copyright <strong>Liyoli Guest Houses</strong>. All Rights Reserved | 
+          Powered by 
+          <a href="https://eandlholdings.co.za/" target="_blank" class="text-warning font-weight-bold">
+            E and L Holdings
+          </a>
+        </p>
       </div>
-    </div>-->
-
+    </div>
   </footer>
 
   <!-- Scroll Top -->
